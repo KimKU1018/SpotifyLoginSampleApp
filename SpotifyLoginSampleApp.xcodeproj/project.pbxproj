@@ -9,13 +9,15 @@
 /* Begin PBXBuildFile section */
 		7F5030BD2AED1B5B0057A37E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030BC2AED1B5B0057A37E /* AppDelegate.swift */; };
 		7F5030BF2AED1B5B0057A37E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030BE2AED1B5B0057A37E /* SceneDelegate.swift */; };
-		7F5030C12AED1B5B0057A37E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030C02AED1B5B0057A37E /* ViewController.swift */; };
 		7F5030C42AED1B5B0057A37E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5030C22AED1B5B0057A37E /* Main.storyboard */; };
 		7F5030C62AED1B5C0057A37E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F5030C52AED1B5C0057A37E /* Assets.xcassets */; };
 		7F5030C92AED1B5C0057A37E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F5030C72AED1B5C0057A37E /* LaunchScreen.storyboard */; };
 		7F5030D42AED1B5D0057A37E /* SpotifyLoginSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030D32AED1B5D0057A37E /* SpotifyLoginSampleAppTests.swift */; };
 		7F5030DE2AED1B5D0057A37E /* SpotifyLoginSampleAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030DD2AED1B5D0057A37E /* SpotifyLoginSampleAppUITests.swift */; };
 		7F5030E02AED1B5D0057A37E /* SpotifyLoginSampleAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030DF2AED1B5D0057A37E /* SpotifyLoginSampleAppUITestsLaunchTests.swift */; };
+		7F5030ED2AED1C220057A37E /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F5030EC2AED1C220057A37E /* LoginViewController.swift */; };
+		7F53AFFC2AED2AE7003F9DDE /* EnterEmailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F53AFFB2AED2AE7003F9DDE /* EnterEmailViewController.swift */; };
+		7F7049512AED304500E14747 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F7049502AED304500E14747 /* MainViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +41,6 @@
 		7F5030B92AED1B5B0057A37E /* SpotifyLoginSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotifyLoginSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5030BC2AED1B5B0057A37E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7F5030BE2AED1B5B0057A37E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7F5030C02AED1B5B0057A37E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7F5030C32AED1B5B0057A37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7F5030C52AED1B5C0057A37E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7F5030C82AED1B5C0057A37E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +50,9 @@
 		7F5030D92AED1B5D0057A37E /* SpotifyLoginSampleAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotifyLoginSampleAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F5030DD2AED1B5D0057A37E /* SpotifyLoginSampleAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginSampleAppUITests.swift; sourceTree = "<group>"; };
 		7F5030DF2AED1B5D0057A37E /* SpotifyLoginSampleAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotifyLoginSampleAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F5030EC2AED1C220057A37E /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		7F53AFFB2AED2AE7003F9DDE /* EnterEmailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEmailViewController.swift; sourceTree = "<group>"; };
+		7F7049502AED304500E14747 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,8 +104,10 @@
 			isa = PBXGroup;
 			children = (
 				7F5030BC2AED1B5B0057A37E /* AppDelegate.swift */,
+				7F5030EC2AED1C220057A37E /* LoginViewController.swift */,
+				7F53AFFB2AED2AE7003F9DDE /* EnterEmailViewController.swift */,
+				7F7049502AED304500E14747 /* MainViewController.swift */,
 				7F5030BE2AED1B5B0057A37E /* SceneDelegate.swift */,
-				7F5030C02AED1B5B0057A37E /* ViewController.swift */,
 				7F5030C22AED1B5B0057A37E /* Main.storyboard */,
 				7F5030C52AED1B5C0057A37E /* Assets.xcassets */,
 				7F5030C72AED1B5C0057A37E /* LaunchScreen.storyboard */,
@@ -258,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7F5030C12AED1B5B0057A37E /* ViewController.swift in Sources */,
+				7F5030ED2AED1C220057A37E /* LoginViewController.swift in Sources */,
 				7F5030BD2AED1B5B0057A37E /* AppDelegate.swift in Sources */,
+				7F53AFFC2AED2AE7003F9DDE /* EnterEmailViewController.swift in Sources */,
 				7F5030BF2AED1B5B0057A37E /* SceneDelegate.swift in Sources */,
+				7F7049512AED304500E14747 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
