@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyDkBR_MCv1QBRZNF2CFHnHQ8h5vbLC5UfM</string>
+	<key>GCM_SENDER_ID</key>
+	<string>598209229577</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.KimKU.SpotifyLoginSampleApp</string>
+	<key>PROJECT_ID</key>
+	<string>spotify-style-login-samp-423b8</string>
+	<key>STORAGE_BUCKET</key>
+	<string>spotify-style-login-samp-423b8.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:598209229577:ios:54e6545f163534cf3a59d8</string>
+</dict>
+</plist>

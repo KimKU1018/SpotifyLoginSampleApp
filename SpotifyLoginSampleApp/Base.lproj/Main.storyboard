@@ -220,10 +220,10 @@
             </objects>
             <point key="canvasLocation" x="1164" y="-52"/>
         </scene>
-        <!--View Controller-->
+        <!--Main View Controller-->
         <scene sceneID="Hvi-JR-F6Q">
             <objects>
-                <viewController id="pTT-wt-ZMF" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="MainViewController" id="pTT-wt-ZMF" customClass="MainViewController" customModule="SpotifyLoginSampleApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Rl3-DZ-oha" customClass="MainViewController" customModule="SpotifyLoginSampleApp" customModuleProvider="target">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -235,7 +235,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eMv-ZB-hOX">
-                                <rect key="frame" x="164" y="490" width="87" height="36"/>
+                                <rect key="frame" x="163.5" y="490" width="87" height="36"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="로그아웃">
                                     <fontDescription key="titleFontDescription" type="boldSystem" pointSize="18"/>
